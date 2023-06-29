@@ -1,0 +1,47 @@
+#home {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 75rem; /* 7xl equals 80rem in Tailwind CSS */
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 0;
+  margin-top: 100px;
+}
+.top-presentation {
+}
+#title {
+  width: 500px;
+  color: white;
+  font-size: 80px;
+  font-weight: 800;
+}
+#presentationTop {
+  color: white;
+  width: 800px;
+  position: relative;
+}
+.nameTag {
+  color: rgb(246, 160, 160);
+  position: relative;
+}
+
+/* color: rgba(87, 222, 222, 0.3);
+color: rgba(246, 160, 160, 0.6); */
+.potfolio-text {
+  color: rgb(49, 161, 161);
+}
+
+.introduction {
+  margin-top: 300px;
+}
+
+#contact{
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+

@@ -1,0 +1,13 @@
+body{
+    
+ background-color: #FDEFD7;
+ color: rgb(175, 175, 175);
+    
+}
+
+.codeBg{
+    background-color: #343a40;
+    color: #f8f9fa;
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+}

@@ -1,0 +1,83 @@
+#cvHeader {
+  background-color: rgb(246, 160, 160);
+  padding-top: 2vh;
+  padding-bottom: 1vh;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#topRight {
+  width: 36%;
+  font-weight: 600;
+}
+.cvIcon {
+  width: 25px;
+}
+
+.cvLinks {
+  width: 35px;
+  height: 25px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#topRight > p {
+  margin-top: 1vh;
+}
+
+#profilPic {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 20%;
+}
+
+/* end of top */
+
+#cvSection {
+  color: rgb(246, 160, 160);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-left: 7vh;
+  padding-right: 7vh;
+  padding-top: 4vh;
+  padding-bottom: 2vh;
+}
+
+.cvDate {
+  color: rgba(31, 130, 187, 0.5);
+
+  font-weight: 600;
+}
+#titleSection {
+  padding-bottom: 4vh;
+}
+.cvWork {
+  color: rgb(31, 130, 187);
+}
+
+#webSchool {
+  width: 35px;
+}
+
+/* end of section */
+#cvFooter {
+  background-color: rgb(246, 160, 160);
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 7vh;
+  padding-right: 7vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.cvColumn>h3{
+  color:  rgba(255, 255, 255, 0.5);
+}

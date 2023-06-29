@@ -1,0 +1,6 @@
+#canvas { 
+  height: 1000px !important;
+  position: absolute !important;
+  top: -150px;
+  width: 100% !important;
+}

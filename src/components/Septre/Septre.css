@@ -1,0 +1,20 @@
+.septre{
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.cubo{
+    background-color:rgb(246, 160, 160);;
+    width: 25px;
+    height: 25px;
+    border-radius: 20% ;
+}
+.tigeFade{
+    background: linear-gradient(rgb(246, 160, 160), rgba(128, 128, 128, 0));
+    width: 4.5px;
+    height: 400px;
+    
+}

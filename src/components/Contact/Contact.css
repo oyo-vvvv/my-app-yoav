@@ -1,0 +1,84 @@
+.contactSection {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 10px;
+  overflow: hidden;
+
+  @media (min-width: 1280px) {
+    flex-direction: row;
+  }
+}
+
+.contactDocument {
+  flex: 0.75;
+  background-color:  rgb(246, 160, 160);
+  padding: 8px;
+  color: whitesmoke;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+.contactForm {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contactFlexCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactFlexCol > span {
+  color: white;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.contactFlexCol > input {
+  background-color: rgba(255, 255, 255, 0.733);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  color: rgb(110, 74, 74);
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  font-weight: 500;
+}
+
+.contactForm > button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: rgb(255, 255, 255);
+  color: rgb(246, 160, 160);
+  font-weight: 500;
+  transition-property: opacity;
+  transition-duration: 0.3s;
+}
+
+.contactForm > button:hover {
+  background-color: rgba(61, 48, 48, 0.9);
+  opacity: 0.9;
+}
+
+.contactForm > button:disabled,
+.contactForm > button.loading {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+#canvasEarth {
+  flex: 1;
+  height: auto;
+  height: 550px;
+}
